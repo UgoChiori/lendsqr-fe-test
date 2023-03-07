@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+.header-welcome {
+  position: absolute;
+  width: 183px;
+  height: 55px;
+  left: 836px;
+  top: 215px;
+  font-family: "Avenir Next, sans-serif";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 55px;
+  /* identical to box height */
+ letter-spacing: -0.04em;
+  color: #213f7d;
+}
+
+.details {
+  position: absolute;
+  width: 194px;
+  height: 28px;
+  left: 836px;
+  top: 280px;
+
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 27px;
+  /* identical to box height */
+
+  color: #545f7d;
+}
+#rectangle{
+  position: absolute;
+  width: 447px;
+  height: 50px;
+  left: 836px;
+  top: 368px;
+background: #ffffff;
+  border: 2px solid rgba(84, 95, 125, 0.15);
+  border-radius: 5px;
+}
+.inputfield {
+  box-sizing: border-box;
+  position: absolute;
+  width: 447px;
+  height: 50px;
+  left: 836px;
+  top: 442px;
+  background: #ffffff;
+  border: 2px solid rgba(84, 95, 125, 0.15);
+  border-radius: 5px;
+}
+
+.forgot-password{
+  position: absolute;
+  width: 147px;
+  height: 17px;
+  left: 836px;
+  top: 516px;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 16px;
+  /* identical to box height */
+  text-align: right;
+  text-transform: uppercase;
+  color: #39CDCC;
+}
+.login-btn{
+  border: none;
+  position: absolute;
+  width: 447px;
+  height: 48px;
+  top: 563px;
+  left: 836px;
+  border-radius: 8px;
+  background: #39CDCC;
+  font-family: "Avenir Next";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 19px;
+  /* identical to box height */
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  /* 6 */
+  color: #FFFFFF;
+}
+// .show-password{
+//   position: absolute;
+// width: 49.41px;
+// height: 12.5px;
+// left: 1215.95px;
+// top: 460px;
+// font-family: 'Avenir Next';
+// font-style: normal;
+// font-weight: 600;
+// font-size: 12px;
+// line-height: 16px;
+// text-align: center;
+// letter-spacing: 0.1em;
+// text-transform: uppercase;
+// cursor: pointer;
+// color: #39CDCC;
+// }
+// .error{
+//   // border: 1px solid red;
+//   color:red;
+//   font-size: 15px;
+//   width: 100%;
+//   margin-top: 6px;
+// }
+@media screen and (max-width: 1255px){
+  .header-welcome{
+    position: absolute;
+    width: 80px;
+    height: 55px;
+    left: 45%;
+    top: 200px;
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 450;
+    font-size: 30px;
+    line-height: 30px;
+    /* identical to box height */
+    letter-spacing: -0.02em;
+    color: #213f7d;
+    transform: translate(-50%, 0);
+  }
+  .details{
+    position: absolute;
+    width: 150px;
+    height: 28px;
+    left: 50%;
+    top: 250px;
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 20px;
+    /* identical to box height */
+    color: #545f7d;
+    transform: translate(-50%, 0);
+  }
+  #rectangle{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 50%;
+    top: 300px;
+    background: #ffffff;
+    border: 2px solid rgba(84, 95, 125, 0.15);
+    border-radius: 8px;
+    transform: translate(-50%, 0);
+  }
+  .inputfield{
+    position: absolute;
+    width: 300px;
+    height: 50px;
+    left: 50%;
+    top: 370px;
+    background: #ffffff;
+    border: 2px solid rgba(84, 95, 125, 0.15);
+    border-radius: 8px;
+    transform: translate(-50%, 0);
+  }
+  .forgot-password{
+    position: absolute;
+    width: 147px;
+    height: 17px;
+    left: 50%;
+    top: 440px;
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 16px;
+    /* identical to box height */
+    text-align: right;
+    text-transform: uppercase;
+    color: #39CDCC;
+    transform: translate(-50%, 0);
+  }
+  .login-btn{
+    border: none;
+    position: absolute;
+    width: 300px;
+    height: 48px;
+    left: 50%;
+    top: 480px;
+    border-radius: 8px;
+    background: #39CDCC;
+    font-family: "Avenir Next";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    /* identical to box height */
+    text-align: center;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    /* 6 */
+    color: #FFFFFF;
+    transform: translate(-50%, 0);
+  }
+}
+/* Laptops and tablets */
+

@@ -1,0 +1,38 @@
+.union {
+  position: absolute;
+  width: 24.75px;
+  height: 25px;
+  left: 97px;
+  top: 107.67px;
+  // background: linear-gradient(31.06deg, #213F7D -30.58%, #39CDCC 116.98%);
+}
+
+.lendsqr {
+  position: absolute;
+  width: 138.44px;
+  height: 36px;
+  left: 132.33px;
+  top: 106px;
+}
+
+.pablo {
+  position: absolute;
+  width: 600px;
+  height: 337.57px;
+  left: 67px;
+  top: 281px;
+  background: #ffffff;
+}
+
+@media screen and (max-width: 1255px) {
+  .pablo {
+    display: none;
+  }
+  .lendsqr {
+    position: absolute;
+    width: 80px;
+    height: 36px;
+    left: 132.33px;
+    top: 106px;
+  }
+}
